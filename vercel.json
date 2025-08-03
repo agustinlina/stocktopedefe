@@ -5,8 +5,7 @@
   ],
   "routes": [
     { "src": "/generar-pdf", "dest": "/generar-pdf.js" },
-    { "src": "/style.css", "dest": "/style.css" },
-    { "src": "/", "dest": "/index.html" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/style.css", "dest": "/generar-pdf.js" },
+    { "src": "/", "dest": "/generar-pdf.js" }
   ]
 }
